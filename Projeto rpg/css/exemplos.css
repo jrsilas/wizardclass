@@ -1,0 +1,47 @@
+/* exemplos de modelos de bordas
+#corners1{
+    border-radius: 25px;    
+    background-color: aqua;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#corners2{
+    border-radius: 25px;    
+    border: 2px solid red;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#corners3{
+    border-radius: 25px;    
+    background-image: url(../imagens/620c4e67ac4503f2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+*/
+/*
+#background1{
+    background-image: url(../imagens/grupo.png), url(../imagens/fundo.jpg);
+    width: 800px;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px, cover;
+    display: inline-block;
+}
+*/
+
+#background1{
+    background-image: url(../imagens/dnd-5e-eberron-city-artwork.webp);
+    width: auto;
+    background-position: center;
+}

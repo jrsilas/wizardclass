@@ -1,0 +1,29 @@
+#bordas1 {
+    border-radius: 25px;
+    background: #0288d1;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#bordas2 {
+    border-radius: 25px;
+    border: 2px solid #03a9f4;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+#bordas3 {
+    border-radius: 25px;
+    background-image: url(../css3/img/boobs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript">
+        
+        function aumenta(obj){
+            obj.height=obj.height*2;
+            obj.width=obj.width*2;
+        }
+         
+        function diminui(obj){
+            obj.height=obj.height/2;
+            obj.width=obj.width/2;
+        }
+        
+        </script>
+</head>
+<body>
+
+    <script>
+
+       var name = 'Silas'
+       var lastName = 'Junior'
+       var fullName = name + ' ' + lastName //dessa forma consigo juntar duas ou mais variáveis numa só mensagem de alerta
+       var number = 10
+
+       alert(number.toString()) //dessa forma eu faço com q os numeros apareçam sem ser em forma de conta.
+       alert(fullName)
+
+    </script>
+    <center>
+        <p><img src="imagens/jato de areia.jpeg" width='300' height='300' alt="CodigoFonte.com.br" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"><!--esse comando faz a imagem selecionada aumentar de tamanho assim q o usuario passa o mouse em cima-->
+    </center>
+    
+</body>
+</html>
